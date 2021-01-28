@@ -32,7 +32,8 @@ const SVGWrapper = styled.svg`
 `;
 
 // eslint-disable-next-line react/prop-types
-export default function GitHubCorner({ projectUrl }) {
+// { projectUrl } parametro do GitHubCorner
+export default function GitHubCorner() {
   return (
     <Wrapper>
       <a href="/contribuidores" target="_blank" rel="noreferrer">

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
 function Logo({ className }) {
@@ -34,7 +35,7 @@ Logo.propTypes = {
 };
 
 const QuizLogo = styled(Logo)`
-  margin: auto;
+  margin: 50px auto;
   display: block;
   @media screen and (max-width: 500px) {
     margin: 0;
