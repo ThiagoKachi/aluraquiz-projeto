@@ -9,8 +9,10 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -34,25 +36,25 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Friends</h1>
+            <h1>Friends Quiz</h1>
           </Widget.Header>
           <Widget.Content>
+            { /* eslint-disable-next-line func-names */ }
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('fazendo uma submissão por meio do react');
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  setName(infosDoEvento.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="Digite seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Vamos jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                { /* eslint-disable-next-line react/jsx-one-expression-per-line */ }
+                {`Vamos jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
 
