@@ -4,25 +4,113 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/0f2/0f263f51c0afef0579a50830a440f3af.png",
+        "title": "Qual é a diferença de idade entre Ross e sua aluna/namorada Elizabeth?",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "5 anos",
+          "12 anos",
+          "8 anos",
+          "10 anos"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/3c4/3c4c93581c61916dde334a64f6e1ff6a.png",
+        "title": "Ross é alérgico a...",
+        "answer": 3,
+        "alternatives": [
+          "Sorvete, Amendoim e Kiwi",
+          "Lagosta, Leite e Kiwi",
+          "Lagosta, Amendoim e Ovo",
+          "Lagosta, Amendoim e Kiwi"
+        ]
+      },
+      {
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/842/842fa656488506c93e10b24b79f116bb.png",
+        "title": "Quais são as camadas DAQUELA sobremesa da Rachel?",
+        "answer": 2,
+        "alternatives": [
+          "Pão de ló, geleia, creme, raspberries (framboesa), pão inglês, bife com ovos, bananas e creme",
+          "Pão de ló, patê, creme, raspberries (framboesa), mais pão de ló, bife com ervilha e cebola, maçã e creme",
+          "Pão de ló, geleia, creme, raspberries (framboesa), mais pão de ló, bife com ervilha e cebola, bananas e creme",
+          "Pão de ló, geleia, chocolate, blueberry (mirtilo), mais pão de ló, bife com ervilha e cebola, bananas e creme"
+        ]
+      },
+      {
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/697/697a3056854102f0a28bb2e2f09f0257.png",
+        "title": "Quanto a Rachel pagou naquela mesa de boticário da Pottery Barn?",
+        "answer": 1,
+        "alternatives": [
+          "200 dólares",
+          "500 dólares",
+          "30 dólares",
+          "350 dólares"
+        ]
+      },
+      {
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/1f8/1f8489b18756c285aa774124ea337967.png",
+        "title": "Quantos passos de distância fica o apartamento de Monica / Joey do 'Central Perk'?",
+        "answer": 1,
+        "alternatives": [
+          "113",
+          "97",
+          "108",
+          "96"
+        ]
+      },
+      {
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/9f1/9f17b9c011518f9f16ac0a34cd712c8d.png",
+        "title": "Quantas irmãs Joey tem?",
+        "answer": 3,
+        "alternatives": [
+          "Seis",
+          "Oito",
+          "Duas",
+          "Sete"
+        ]
+      },
+      {
+        "image": "https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/0b3/0b30fac50299d61f3ec8b3be9a21dd97.png",
+        "title": "Qual foi o desenho da tatuagem que Rachel fez no quadril?",
+        "answer": 1,
+        "alternatives": [
+          "Um gato",
+          "Um coração",
+          "Uma borboleta",
+          "Um lírio"
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_mrAJGBZTLwM3.png.jpeg",
+        "title": "Durante um jogo de perguntas e respostas, qual a pergunta de desempate que faz Monica e Rachel perderem seu apartamento para Chandler e Joey?",
+        "answer": 3,
+        "alternatives": [
+          "Qual o nome do amigo imaginário de infância de Joey?",
+          "Qual o nome do show que o pai de Chandler tem em Las Vegas?",
+          "Com que idade Chandler tocou em seios pela primeira vez?",
+          "Qual o emprego de Chandler?"
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_LlRmjtuFS684.jpg.jpeg",
+        "title": "Com quem Rachel e Ross deixariam sua filha caso eles morressem?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Monica",
+          "Os pais de Ross",
+          "Phoebe",
+          "Amy, a irmã de Rachel"
+        ]
+      },
+      {
+        "image": "https://kanto.legiaodosherois.com.br/w750-h450-k1/wp-content/uploads/2020/04/legiao_xMd3DcFpOHq1.jpg.jpeg",
+        "title": "Quais foram as resoluções de ano novo de Ross, Rachel e Joey para 1999?",
+        "answer": 2,
+        "alternatives": [
+          "Não entrar em um relacionamento (Ross); não ser mais fofoqueira (Rachel); fazer um filme de Hollywood (Joey)",
+          "Conseguir um intercâmbio (Ross); fazer coisas que nunca fez antes (Rachel); entrar em um relacionamento sério (Joey)",
+          "Fazer coisas que nunca fez antes (Ross); não ser mais fofoqueira (Rachel); aprender a tocar violão (Joey)",
+          "Ser menos rabugento (Ross); não entrar em um relacionamento (Rachel); ser menos guloso (Joey)"
         ]
       }
     ],
