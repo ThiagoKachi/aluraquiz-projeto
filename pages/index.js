@@ -64,7 +64,7 @@ export default function Home() {
               />
               <Button type="submit" disabled={name.length === 0}>
                 { /* eslint-disable-next-line react/jsx-one-expression-per-line */ }
-                {`Vamos jogar ${name}`}
+                {`Vamos jogar ${name}.`}
               </Button>
             </form>
           </Widget.Content>
